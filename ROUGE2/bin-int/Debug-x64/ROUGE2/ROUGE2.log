@@ -1,0 +1,10 @@
+﻿  Application.cpp
+D:\Big Projects\ROUGE2\ROUGE2\src\ROUGE2\Application.cpp(4,29): warning C4273: 'ROUGE2::Application::Application': inconsistent dll linkage
+D:\Big Projects\ROUGE2\ROUGE2\src\ROUGE2\Application.h(10,3): message : see previous definition of '{ctor}'
+D:\Big Projects\ROUGE2\ROUGE2\src\ROUGE2\Application.cpp(8,30): warning C4273: 'ROUGE2::Application::~Application': inconsistent dll linkage
+D:\Big Projects\ROUGE2\ROUGE2\src\ROUGE2\Application.h(11,12): message : see previous definition of '{dtor}'
+D:\Big Projects\ROUGE2\ROUGE2\src\ROUGE2\Application.cpp(12,26): warning C4273: 'ROUGE2::Application::Run': inconsistent dll linkage
+D:\Big Projects\ROUGE2\ROUGE2\src\ROUGE2\Application.h(13,8): message : see previous definition of 'Run'
+     Creating library D:\Big Projects\ROUGE2\ROUGE2\bin\Debug-x64\ROUGE2\ROUGE2.lib and object D:\Big Projects\ROUGE2\ROUGE2\bin\Debug-x64\ROUGE2\ROUGE2.exp
+Application.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) const ROUGE2::Application::`vftable'" (__imp_??_7Application@ROUGE2@@6B@) referenced in function "public: __cdecl ROUGE2::Application::Application(void)" (??0Application@ROUGE2@@QEAA@XZ)
+D:\Big Projects\ROUGE2\ROUGE2\bin\Debug-x64\ROUGE2\ROUGE2.dll : fatal error LNK1120: 1 unresolved externals
